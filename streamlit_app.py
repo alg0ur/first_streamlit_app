@@ -45,7 +45,7 @@ except URLError as e:
   streamlit.error()
 
 #don't run anything past while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 streamlit.header("View Our Fruit List - Add your Favorites!")
 #Snowflake-related functions
